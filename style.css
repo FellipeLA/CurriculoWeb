@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(33, 33, 206);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #2d3636, #443852, rgb(23, 23, 136), rgb(73, 48, 48));
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+
+#myicons {
+    display: flex;
+    justify-content: space-around;
+    width: 98.7vw;
+    background-color: #08040c;
+    font-size: 5vh;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+
+#corpo {
+    display: flex;
+    background-color: #141b1b;
+    height: 60vh;
+    margin: 0 15vw;
+    border-bottom: rgb(33, 33, 206) solid 2px;
+}
+
+#corpo div img {
+    position: absolute;
+    max-width: 20%;
+    height: auto;
+    margin-top: 15vh;
+    margin-left: 45vw;
+    border-radius: 50%;
+    border: 2px solid rgb(33, 33, 206);
+}
+
+#intro {
+    font-size: 3vw;
+}
+
+#corpo div ul {
+    position: absolute;
+    font-size: 6vw;
+    color: white;
+    top: 35vh;
+    left: 34vw;
+}
+
+h1 {
+    display: block;
+    margin-top: 15vh;
+    margin-left: 3vw;
+    font-size: 2vw;
+    color: rgb(33, 33, 206);
+}
+
+h1 span {
+    display: block;
+    font-size: 8vw;
+    margin-top: -1vh;
+    display: flex;
+    color: rgb(33, 33, 206);
+}
+
+#sobremim {
+    display: block;
+    background-color: #141b1b;
+    height: auto;
+    margin: 0 15vw;
+    border-top: 2px solid rgb(33, 33, 206);
+    border-bottom: 2px solid rgb(33, 33, 206);
+    text-align: center;
+    font-size: 5vw;
+    align-content: center;
+    line-height: 1.1;
+    margin-top: 1rem;
+}
+
+#sobremim h2 {
+    margin-top: 1rem;
+    font-size: 3vw;
+}
+
+#sobremim p {
+    text-align: center;
+    font-size: 2vw;
+    margin: 0 10vw;
+    margin-bottom: 1rem;
+}
+
+#Educação {
+    font-size: 3vw;
+    display: block;
+    background-color: #141b1b;
+    height: auto;
+    margin: 0 15vw;
+    text-align: center;
+    line-height: 1;
+}
+
+#Educação h2 {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    border-top: rgb(33, 33, 206) solid 2px;
+}
+
+#instituições {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    background-color: #141b1b;
+    height: auto;
+    margin: 0 15vw;
+    bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: rgb(33, 33, 206) solid 2px;
+}
+
+#instituições img {
+    margin-top: 3vh;
+    margin-left: 10vw;
+    max-width: 50%;
+    height: auto;
+}
+
+#instituições p {
+    margin-left: 10vw;
+    font-size: 1vw;
+}
+
+i:hover {
+
+    color: orange;
+    margin: 10px auto;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+#instituições a p:hover {
+    color: orange;
+}
+
+#skill {
+    display: block;
+    background-color: #141b1b;
+    border-top: rgb(33, 33, 206) solid 2px;
+    border-bottom: rgb(33, 33, 206) solid 2px;
+    margin: 0 15vw;
+    height: auto;
+}
+
+#teste{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);
+    justify-content: space-around;
+    gap: 10px;
+    text-align: center;
+}
+#skill i {
+    font-size: 10vw;
+}
+
+#skill div h2{
+    font-size: 3vw;
+    text-align: center;
+}
+
+#skill div p{
+    font-size: 1vw;
+    line-height: 1.2;
+    text-align: center;
+}
