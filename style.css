@@ -10,14 +10,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 body {
-    background: linear-gradient(to bottom, #2d3636, #443852, rgb(23, 23, 136), rgb(73, 48, 48));
+    background: linear-gradient(to bottom, #2d3636, rgb(23, 23, 136),#2d3636);
     font-family: "Fjalla One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 header {
-    display: flex;
     position: fixed;
     z-index: 999;
 }
@@ -30,6 +29,10 @@ header {
     font-size: 5vh;
     padding: 10px 20px;
     opacity: 0.8;
+}
+
+#myicons i{
+    padding: 1vw;
 }
 
 #corpo {
@@ -152,7 +155,6 @@ h1 span {
 }
 
 i:hover {
-
     color: orange;
     margin: 10px auto;
     transition: 0.3s;
@@ -256,3 +258,18 @@ i:hover {
         border-radius: 50%;
         border: 2px solid rgb(33, 33, 206);
     }
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #141b1b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(33, 33, 206);
+    border-radius: 10px;
+}
