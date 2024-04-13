@@ -41,6 +41,7 @@ header {
     height: 60vh;
     margin: 0 15vw;
     border-bottom: white solid 2px;
+    padding: 1rem;
 }
 
 #corpo div img {
@@ -93,6 +94,7 @@ h1 span {
     align-content: center;
     line-height: 1.1;
     margin-top: 1rem;
+    padding: 1rem;
 }
 
 #sobremim h2 {
@@ -115,6 +117,7 @@ h1 span {
     margin: 0 15vw;
     text-align: center;
     line-height: 1;
+    padding: 1rem;
 }
 
 #Educação h2 {
@@ -134,6 +137,7 @@ h1 span {
     bottom: 1rem;
     margin-bottom: 1rem;
     border-bottom: white solid 2px;
+    padding: 1rem;
 }
 
 #instituições img {
@@ -174,6 +178,7 @@ i:hover {
     margin: 0 15vw;
     height: auto;
     margin-top: 1rem;
+    padding: 1rem;
 }
 
 #teste {
@@ -209,6 +214,7 @@ i:hover {
     border-bottom: white solid 2px;
     margin-top: 1rem;
     justify-content: space-around;
+    padding: 1rem;
 }
 
 #experiencia h2 {
