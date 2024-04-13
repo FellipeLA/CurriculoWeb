@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +9,10 @@
     box-sizing: border-box
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-
 body {
-    background: linear-gradient(to bottom, #2d3636, rgb(23, 23, 136),#2d3636);
+    background: linear-gradient(to bottom, #2d3636, rgb(23, 23, 136), #2d3636);
     font-family: "Fjalla One", sans-serif;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -31,7 +31,7 @@ header {
     opacity: 0.8;
 }
 
-#myicons i{
+#myicons i {
     padding: 1vw;
 }
 
@@ -112,11 +112,11 @@ h1 span {
 
 #Educação {
     font-size: 3vw;
-    display: block;
+    display: flex;
     background-color: #141b1b;
     height: auto;
     margin: 0 15vw;
-    text-align: center;
+    justify-content: center;
     line-height: 1;
     padding: 1rem;
     border: 2px solid white;
@@ -125,14 +125,12 @@ h1 span {
 
 #Educação h2 {
     display: block;
-    text-align: center;
     margin-top: 1rem;
 }
 
 #instituições {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-around;
     background-color: #141b1b;
     height: auto;
     margin: 0 15vw;
@@ -140,25 +138,20 @@ h1 span {
     margin-bottom: 1rem;
     border: 2px solid white;
     border-top: none;
-    padding: 1rem;
+    padding: 2rem;
+    place-items: center;
 }
 
 #instituições img {
-    margin-top: 3vh;
-    margin-left: 10vw;
-    max-width: 50%;
+    max-width: 100%; 
     height: auto;
     border-radius: 50%;
     border: 2px solid white;
+    gap: 1vh 1vw;
 }
 
 #instituições img:hover {
     border: 4px solid orange;
-}
-
-#instituições a p {
-    font-size: 1vw;
-    text-align: center;
 }
 
 i:hover {
@@ -166,7 +159,6 @@ i:hover {
     margin: 10px auto;
     transition: 0.3s;
     opacity: 1;
-
 }
 
 #instituições p:hover {
@@ -269,7 +261,7 @@ i:hover {
     }
 }
 
-footer{
+footer {
     display: block;
     text-align: center;
     background-color: black;
@@ -277,7 +269,7 @@ footer{
     padding: 2rem;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 13px;
 }
 
