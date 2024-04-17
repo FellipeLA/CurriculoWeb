@@ -269,6 +269,10 @@ footer {
     padding: 2rem;
 }
 
+#corpo div img:hover{
+    scale: 1.05;
+    transition: 1s;
+}
 ::-webkit-scrollbar {
     width: 13px;
 }
